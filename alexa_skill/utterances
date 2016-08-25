@@ -1,0 +1,18 @@
+TurnOnLight pi home lights on
+TurnOffLight pi home lights off
+ChangeLightMode pi home change lights mode
+
+TurnOnFan pi home fans start
+TurnOffFan pi home fans stop
+
+ChangeFanSpeed pi home change fans speed {action}
+SpeedUpFan speed up pi home fans
+SpeedUpFan pi home fans speed up
+SpeedUpFan pi home fans faster
+SlowDownFan slow down pi home fans
+SlowDownFan pi home fans slow down
+SlowDownFan pi home fans slower
+ReverseFan pi home fans reverse
+
+AMAZON.HelpIntent help me pi home operation
+AMAZON.HelpIntent how do I use pi home

@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "TurnOnLight"
+    },
+    {
+      "intent": "TurnOffLight"
+    },
+    {
+      "intent": "ChangeLightMode"
+    },
+    {
+      "intent": "TurnOnFan"
+    },
+    {
+      "intent": "TurnOffFan"
+    },
+    {
+      "intent": "SpeedUpFan"
+    },
+    {
+      "intent": "SlowDownFan"
+    },
+    {
+      "intent": "ReverseFan"
+    },
+    {
+      "intent": "ChangeFanSpeed",
+      "slots": [
+            {
+                "name": "action",
+                "type": "LIST_OF_FAN_ACTION"
+            }
+        ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

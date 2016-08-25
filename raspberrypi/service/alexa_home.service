@@ -1,0 +1,12 @@
+[Unit]
+Description=Control light and ceiling fans
+
+[Service]
+ExecStart=/usr/bin/node /opt/alexa_home_control/raspberrypi/iot_shadow.js
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=alexa_home_control
+
+[Install]
+WantedBy=multi-user.target
