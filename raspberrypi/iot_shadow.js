@@ -3,9 +3,9 @@ var exec = require('child_process').exec;
 
 var shadowName = "alexa_home"
 var thingShadows = awsIot.thingShadow({
-   keyPath: "./certs/private.pem.key",
-  certPath: "./certs/certificate.pem.crt",
-    caPath: "./certs/ca.pem",
+   keyPath: "/opt/alexa_home_control/raspberrypi/certs/private.pem.key",
+  certPath: "/opt/alexa_home_control/raspberrypi/certs/certificate.pem.crt",
+    caPath: "/opt/alexa_home_control/raspberrypi/certs/ca.pem",
   clientId: "alexa_home",
     region: "ap-northeast-1"
 });
